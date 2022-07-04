@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Menu */
+
+.nav-md-style{
+    @apply md:w-full md:h-[60px] md:drop-shadow-md md:border-r-0;
+}
+.parent-md-style {
+    @apply md:flex  md:items-center md:justify-around  md:w-full
+}
+.text-link-md {
+    @apply md:inline-block md:text-base lg:text-lg md:font-poppins md:text-purpel
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.menu-mobile{
+    @apply bg-white  w-full flex justify-center  items-center   h-14 cursor-pointer delay-300 fill-muted; 
+   
+}
+.selected-item {
+    @apply bg-white  w-[102%] h-14 md:h-[114%] flex justify-center  items-center   cursor-pointer
+    border-primary border-r-4 md:border-r-0  md:border-b-4 mr-[-3px] md:mr-0  fill-primary;
+}
+.hidde-menu{
+    @apply w-0 h-0 m-0 p-0 invisible
+}
+.ellipse{
+    @apply w-[200px] h-[200px] rounded-full;
+}
+
+/* Home */
+.content{
+    @apply w-[280px] h-36 xl:w-[320px] xl:h-40 ;
+}
+.item {
+    @apply content relative flex flex-col justify-center items-center border-2  shadow-y-4 rounded-3xl mt-14 mb-10 ;
+}
+
+.item-primary {
+    @apply border-primary shadow-primary
+}
+.item-secondary {
+    @apply border-secondary shadow-secondary
+}
+.ellipse-item{
+    @apply w-20 h-20 xl:w-[100px] xl:h-[100px] bg-white rounded-full text-center font-k2d font-extrabold text-2xl  text-purpel absolute -top-[38px] left-[102px] xl:-top-[50px] xl:left-[110px] flex items-center justify-center border-2    ;
+}
+
+
+/* Competences */
+
+.icon-title{
+    @apply ml-2 font-poppins font-bold text-lg lg:text-xl text-purpel ;
+}
+.parent-icon-title{
+    @apply w-fit flex border-b-4 p-2 border-purpel animate-competence;
+}
+
+/* Formations*/
+
+.parent-formation {
+    @apply w-[280px] lg:w-[350px] min-h-[220px] md:min-h-[300px]  rounded-2xl bg-formation flex  flex-col justify-start items-start space-y-4 p-3 relative;
+}
+
+.p-formation {
+    @apply text-white font-poppins text-sm lg:text-lg text-justify capitalize ;
+}
+.parent-p-formation {
+    @apply flex items-center space-x-3 z-10 ;
 }
