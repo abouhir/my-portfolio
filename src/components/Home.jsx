@@ -119,7 +119,7 @@ const Home = () => {
             <div className="w-full lg:w-[70%] flex flex-col items-center md:flex-row-reverse md:flex-wrap md:justify-around   ">
                 <div className="content bg-ciel rounded-3xl  py-3 ml-1 md:ml-0 flex flex-col items-center space-y-10">
                     <h1 className="font-k2d text-center font-extrabold text-purpel text-2xl ">Mon Cv</h1>
-                    <a href={cv} target="__blank" className="w-[80%]  text-white text-center text-md xl:text-lg font-bold bg-silver rounded-lg p-2  shadow-md shadow-silver" download>Telecharger</a>
+                    <a href={cv} target="__blank" className="w-[80%]  text-white text-center text-md xl:text-lg font-bold bg-silver rounded-lg p-2  shadow-md shadow-silver" download>Télécharger</a>
                 </div>
                 <div>
                     <Item nombre={6} status={"Projets"} color={"item-primary"} ellipseColor="border-primary shadow-ellipse-primary" />
