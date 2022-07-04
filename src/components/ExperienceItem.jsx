@@ -27,7 +27,7 @@ const ExperienceItem = ({ type, map, date, app, objective, tasks, technologies }
     return (
         <div className='w-[280px] lg:w-[350px]   md:relative md:text-ellipsis md:overflow-hidden   bg-gradient-to-b  from-primary via-via to-secondary rounded-3xl  flex flex-col justify-center  items-start duration-1000 p-3 space-y-4 relative' ref={elements}>
             <div className='w-[200px] lg:w-[250px]   absolute animate-stage '>
-                {type.toLowerCase() === 'stage' ? <StageIcon /> : <ProjectIcon />}
+                {type.toLowerCase() === 'projet' ?<ProjectIcon />  : <StageIcon />}
             </div>
 
             <div className='self-center z-10'>
