@@ -12,13 +12,14 @@ import CompetenceTitle from './CompetenceTitle'
 import FigmaIcon from '../icons/FigmaIcon'
 import OracleIcon from '../icons/OracleIcon'
 import JavaIcon from '../icons/JavaIcon'
+import TailwindIcon from '../icons/TailwindIcon'
 export default function CompetenceItem({icon , title , technologies}) {
   return (
     <div className=' relative flex flex-col md:flex-row md:justify-center md:animate-competence-content md:w-[70%] md:h-[200px] md:rounded-xl md:mx-auto items-center space-y-5 md:space-y-0 md:border-l-primary md:border-t-primary md:border-r-secondary md:border-b-secondary md:border-2  ' >
                 <div className='md:-rotate-90 md:absolute -left-9 '>
                     <CompetenceTitle Icon={icon} title={title} />
                 </div>
-                <div className='flex justify-center flex-wrap space-x-3 relative'>
+                <div className='flex justify-center flex-wrap space-x-3 space-y-3 relative'>
                     {
                 
                     technologies.map((tech )=>{
@@ -31,6 +32,7 @@ export default function CompetenceItem({icon , title , technologies}) {
                             case 'react' : return <ReactIcon key={Math.random()*100} cls="w-14 lg:w-20" />  
                             case 'html' : return <HtmlIcon key={Math.random()*100} cls="w-14 lg:w-20" />  
                             case 'css' : return <CssIcon key={Math.random()*100} cls="w-14 lg:w-20" /> 
+                            case 'tailwind' : return <TailwindIcon key={Math.random()*100} cls="w-14 lg:w-20" />
                             case 'laravel' : return <LaravelIcon key={Math.random()*100} cls="w-14 lg:w-20" />
                             case 'bootstrap' : return <BootstrapIcon key={Math.random()*100} cls="w-14 lg:w-20" />
                             case 'reactnative' : return <ReactNativeIcon key={Math.random()*100} cls="w-14 lg:w-20" /> 

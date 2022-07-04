@@ -14,7 +14,8 @@ export const getCompetenceData = ()=>{
             'bootstrap' ,
             'javascript' , 
             'react' ,
-            'reactnative'
+            'reactnative' ,
+            'tailwind'
         ]
     } , 
     {
