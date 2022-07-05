@@ -21,7 +21,7 @@ export const getContacts = ()=>{
         {
           name : '@Abderrahmane Bouhir' , 
           compte : 'facebook' , 
-          url : 'https://wa.me/212652157462' ,
+          url : 'https://www.facebook.com/profile.php?id=100007359870372' ,
           color :'bg-facebook'
         }
         ,
