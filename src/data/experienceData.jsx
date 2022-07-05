@@ -20,7 +20,7 @@ export const getCompetenceData = ()=>{
           map: 'Casablanca Mission Freelance',
           date: 'Mars 2021',
           app: 'site',
-          objective: 'Créaction d’un application web pour l’achat des produit (coté client , coté admin) ',
+          objective: 'Créaction d’une application web pour l’achat des produit (coté client , coté admin) ',
           tasks: [
             'Gérer les traitements et les opérations pour chaque produit .'
           ],
@@ -34,7 +34,7 @@ export const getCompetenceData = ()=>{
           map: 'Casablanca-Initiative',
           date: 'avril 2021',
           app: 'site',
-          objective: 'Créaction d’un application web en collaboration avec l’association "wlidat el khir',
+          objective: 'Créaction d’une application web en collaboration avec l’association "wlidat el khir',
           tasks: [
             'Se produit a pour but à aider l’association à bien gérer et organiser les familles pauvres et leurs enfants et a bien les servir à tous les niveaux jusqu’on arrivons à leur trouver des solutions pour développer leurs revenus'
           ],
@@ -48,7 +48,7 @@ export const getCompetenceData = ()=>{
           map: 'Casablanca-Initiative',
           date: 'Mars 2022',
           app: 'site',
-          objective: 'Créaction d’un application web pour la creation d’un portfolio en ligne',
+          objective: 'Créaction d’une application web pour la creation d’un portfolio en ligne',
           tasks: [
             'Gérer le profile , les competences , les formation , les experiences et les langues'
           ],
