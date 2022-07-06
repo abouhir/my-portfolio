@@ -21,7 +21,7 @@
 }
 .selected-item {
     @apply bg-white  w-[102%] h-14 md:h-[114%] flex justify-center  items-center   cursor-pointer
-    border-primary border-r-4 md:border-r-0  md:border-b-4 mr-[-3px] md:mr-0  fill-primary;
+    border-primary border-r-4 md:border-r-0  md:border-b-4 mr-[-3px] md:mr-0 text-primary  fill-primary;
 }
 .hidde-menu{
     @apply w-0 h-0 m-0 p-0 invisible
