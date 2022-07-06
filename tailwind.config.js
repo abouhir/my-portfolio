@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors : {
-        primary : "#BD8CD3" ,
-        secondary : "#FCE5B9",
+        primary : "#71C4E4" ,
+        secondary : "#DE4D90",
         muted : "#7F7474",
         silver : "#FFDF00" ,
         purpel : "#3E2E69" , 
@@ -31,9 +31,9 @@ module.exports = {
       boxShadow : {
         home : '50px 80px ' ,
         "y-4" : '0px 50px 5px' ,
-        "ellipse-primary" : ['0px -5px 5px #BD8CD3' ,'0px 5px 5px #BD8CD3', '5px 0px 5px #BD8CD3' ,'-5px 0px 5px #BD8CD3'],
-        "ellipse-secondary" : ['0px -5px 5px #FCE5B9' ,'0px 5px 5px #FCE5B9', '5px 0px 5px #FCE5B9' ,'-5px 0px 5px #FCE5B9'] ,
-         competence : ['0px 5px 4px #FCE5B9' ,'5px 0px 4px #FCE5B9', '0px -5px 4px #BD8CD3' ,'-5px 0px 4px #BD8CD3']
+        "ellipse-primary" : ['0px -5px 5px #71C4E4' ,'0px 5px 5px #71C4E4', '5px 0px 5px #71C4E4' ,'-5px 0px 5px #71C4E4'],
+        "ellipse-secondary" : ['0px -5px 5px #DE4D90' ,'0px 5px 5px #DE4D90', '5px 0px 5px #DE4D90' ,'-5px 0px 5px #DE4D90'] ,
+         competence : ['0px 5px 4px #DE4D90' ,'5px 0px 4px #DE4D90', '0px -5px 4px #71C4E4' ,'-5px 0px 4px #71C4E4']
         
       } ,
       rotate : {
@@ -184,28 +184,28 @@ module.exports = {
         } ,
         competence : {
           '0%' : {
-            borderColor : '#BD8CD3'
+            borderColor : '#71C4E4'
           } ,
           '33%' : {
-            borderColor : '#FCE5B9'
+            borderColor : '#DE4D90'
           } ,
           '66%' : {
             borderColor : '#3E2E69'
           }
            ,
           '100%' : {
-            borderColor : "#BD8CD3"
+            borderColor : "#71C4E4"
           }
         } , 
         'competence-content' : {
          '0%,100%' : {
-          'border-color': '#BD8CD3 #FCE5B9 #FCE5B9  #BD8CD3 '  ,
-          'box-shadow' : '0px 5px 4px #FCE5B9 , 4px 0px 5px #FCE5B9 , 0px -5px 4px #BD8CD3 , -5px 0px 4px #BD8CD3'
+          'border-color': '#71C4E4 #DE4D90 #DE4D90  #71C4E4 '  ,
+          'box-shadow' : '0px 5px 4px #DE4D90 , 4px 0px 5px #DE4D90 , 0px -5px 4px #71C4E4 , -5px 0px 4px #71C4E4'
           
          } ,
          '50%' : {
-          'border-color': '#FCE5B9 #BD8CD3 #BD8CD3  #FCE5B9 ' ,
-          'box-shadow' : '0px 5px 4px #BD8CD3 , 5px 0px 4px #BD8CD3 , 0px -5px 4px  #FCE5B9, -5px 0px 4px #FCE5B9'
+          'border-color': '#DE4D90 #71C4E4 #71C4E4  #DE4D90 ' ,
+          'box-shadow' : '0px 5px 4px #71C4E4 , 5px 0px 4px #71C4E4 , 0px -5px 4px  #DE4D90, -5px 0px 4px #DE4D90'
           
          }
         }
