@@ -26,7 +26,7 @@ const Menu = ({ iconColor }) => {
 
     }
     return (
-        <div className=' grid grid-cols-[80px_1fr]  relative md:inline' ref={parent}>
+        <div className=' grid grid-cols-[80px_1fr] w-full h-full relative md:inline' ref={parent}>
             <div className='hidden md:hidden  w-fit bg-white rounded-full absolute top-8 left-0  cursor-pointer rotate-180 z-20' ref={iconNext} onClick={() => { hiddeMenu() }}>
                 <BackIcon iconBack={iconBack} />
             </div>
@@ -77,7 +77,7 @@ const Menu = ({ iconColor }) => {
 
                 </nav>
             
-            <div className='z-0' ref={parentChild}>
+            <div className='z-0 h-full' ref={parentChild}>
                 <Outlet />
             </div>
 

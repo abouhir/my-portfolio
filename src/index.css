@@ -12,16 +12,16 @@
     @apply md:flex  md:items-center md:justify-around  md:w-full
 }
 .text-link-md {
-    @apply md:inline-block md:text-base lg:text-lg md:font-poppins md:text-purpel
+    @apply md:inline-block md:text-base lg:text-lg md:font-poppins 
 }
 
 .menu-mobile{
-    @apply bg-white  w-full flex justify-center  items-center   h-14 cursor-pointer delay-300 fill-muted; 
+    @apply bg-white  w-full flex justify-center  items-center   h-14 cursor-pointer delay-300 md:text-purpel fill-muted; 
    
 }
 .selected-item {
     @apply bg-white  w-[102%] h-14 md:h-[114%] flex justify-center  items-center   cursor-pointer
-    border-primary border-r-4 md:border-r-0  md:border-b-4 mr-[-3px] md:mr-0 text-primary  fill-primary;
+    border-secondary border-r-4 md:border-r-0  md:border-b-4 mr-[-3px] md:mr-0  fill-primary text-primary ;
 }
 .hidde-menu{
     @apply w-0 h-0 m-0 p-0 invisible
