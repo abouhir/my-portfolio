@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function FrontEnd({cls}) {
     return (
-        <svg className={'fill-muted '+cls}
+        <svg className={'fill-muted dark:fill-white '+cls}
             xmlns="http://www.w3.org/2000/svg"
             
             enableBackground="new 0 0 512 512"

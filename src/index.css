@@ -6,7 +6,7 @@
 /* Menu */
 
 .nav-md-style{
-    @apply md:w-full md:h-[60px] md:drop-shadow-md md:border-r-0;
+    @apply md:w-full md:h-[60px] md:drop-shadow-md dark:md:border-b-white  dark:md:border-b-2 md:border-r-0;
 }
 .parent-md-style {
     @apply md:flex  md:items-center md:justify-around  md:w-full
@@ -16,11 +16,11 @@
 }
 
 .menu-mobile{
-    @apply bg-white  w-full flex justify-center  items-center   h-14 cursor-pointer delay-300 md:text-purpel fill-muted; 
+    @apply bg-white dark:bg-black  w-full flex justify-center  items-center   h-14 cursor-pointer delay-300 md:text-purpel dark:md:text-white fill-muted dark:fill-white; 
    
 }
 .selected-item {
-    @apply bg-white  w-[102%] h-14 md:h-[114%] flex justify-center  items-center   cursor-pointer
+    @apply bg-white dark:bg-black  w-[102%] h-14 md:h-[114%] flex justify-center  items-center   cursor-pointer
     border-secondary border-r-4 md:border-r-0  md:border-b-4 mr-[-3px] md:mr-0  fill-primary text-primary ;
 }
 .hidde-menu{
@@ -45,14 +45,14 @@
     @apply border-secondary shadow-secondary
 }
 .ellipse-item{
-    @apply w-20 h-20 xl:w-[100px] xl:h-[100px] bg-white rounded-full text-center font-k2d font-extrabold text-2xl  text-purpel absolute -top-[38px] left-[102px] xl:-top-[50px] xl:left-[110px] flex items-center justify-center border-2    ;
+    @apply w-20 h-20 xl:w-[100px] xl:h-[100px] bg-white dark:bg-black rounded-full text-center font-k2d font-extrabold text-2xl  text-purpel dark:text-white absolute -top-[38px] left-[102px] xl:-top-[50px] xl:left-[110px] flex items-center justify-center border-2    ;
 }
 
 
 /* Competences */
 
 .icon-title{
-    @apply ml-2 font-poppins font-bold text-lg lg:text-xl text-purpel ;
+    @apply ml-2 font-poppins font-bold text-lg lg:text-xl text-purpel dark:text-white;
 }
 .parent-icon-title{
     @apply w-fit flex border-b-4 p-2 border-purpel animate-competence;

@@ -31,9 +31,9 @@ const Menu = ({ iconColor }) => {
                 <BackIcon iconBack={iconBack} />
             </div>
           
-                <nav className=' h-screen  bg-white border-r-threed border-r-2 relative md:fixed  md:top-0  nav-md-style z-20  ' ref={menu}      >
+                <nav className=' h-screen  bg-white dark:bg-black dark:border-white border-r-threed border-r-2  relative md:fixed  md:top-0  nav-md-style z-20   ' ref={menu}      >
 
-                    <div className='md:hidden w-fit bg-white rounded-full absolute top-8 left-3/4  cursor-pointer' onClick={() => { hiddeMenu() }}>
+                    <div className='md:hidden w-fit bg-white dark:bg-black  rounded-full absolute top-8 left-3/4  cursor-pointer' onClick={() => { hiddeMenu() }}>
                         <BackIcon iconBack={iconBack} />
                     </div>
                     <ul className='list-none parent-md-style '>
@@ -43,8 +43,8 @@ const Menu = ({ iconColor }) => {
                         <div className='inline w-fit md:flex md:space-x-5 lg:space-x-7  '>
                             <li className='mt-28 md:mt-0  ' >
                                 <NavLink to={"/"} className={({ isActive }) => isActive ? 'selected-item' : 'menu-mobile'} >
-                                    <span className='md:hidden'>   <HomeIcon iconColor={iconColor} /></span>
-                                    <span className='hidden text-link-md '>Accueil</span>
+                                    <span className='md:hidden'>   <HomeIcon  /></span>
+                                    <span className='hidden text-link-md  '>Accueil</span>
                                 </NavLink>
 
                             </li>
