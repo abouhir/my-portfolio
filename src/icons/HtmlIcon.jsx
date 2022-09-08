@@ -3,14 +3,14 @@ import React from 'react'
 export default function HtmlIcon({cls}) {
     return (
         <svg
-            className={cls}
+            className={cls + ''}
             xmlns="http://www.w3.org/2000/svg"
           
             enableBackground="new 0 0 512 512"
             viewBox="0 0 512 512"
         >
             <g xmlns="http://www.w3.org/2000/svg">
-                <path
+                <path className=' fill-black dark:fill-white'
                     d="M108.4 0h23v22.8h21.2V0h23v69h-23V46h-21v23h-23.2zM206 23h-20.3V0h63.7v23H229v46h-23zm53.5-23h24.1l14.8 24.3L313.2 0h24.1v69h-23V34.8l-16.1 24.8-16.1-24.8V69h-22.6zm89.2 0h23v46.2h32.6V69h-55.6z"
                     data-original="#000000"
                 ></path>

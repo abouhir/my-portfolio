@@ -3,14 +3,14 @@ import React from 'react'
 export default function CssIcon({cls}) {
     return (
         <svg
-        className={cls}
+            className={cls}
             xmlns="http://www.w3.org/2000/svg"
             
             enableBackground="new 0 0 512 512"
             viewBox="0 0 512 512"
         >
             <g xmlns="http://www.w3.org/2000/svg">
-                <path
+                <path 
                     fill="#004ce8"
                     d="M437.367 100.62l-33.046 370.199L255.778 512l-148.134-41.123L74.633 100.62z"
                     data-original="#004ce8"
@@ -35,17 +35,17 @@ export default function CssIcon({cls}) {
                     ></path>
                 </g>
                 <path
-                    fill="#000"
+                    className='fill-black dark:fill-white'
                     d="M160 0h55v23h-32v23h32v23h-55z"
                     data-original="#000000"
                 ></path>
                 <path
-                    fill="#000"
+                    className='fill-black dark:fill-white'
                     d="M226 0h55v20h-32v4h32v46h-55V49h32v-4h-32z"
                     data-original="#000000"
                 ></path>
                 <path
-                    fill="#000"
+                  className='fill-black dark:fill-white'
                     d="M292 0h55v20h-32v4h32v46h-55V49h32v-4h-32z"
                     data-original="#000000"
                 ></path>
