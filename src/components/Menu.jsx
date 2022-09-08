@@ -7,6 +7,7 @@ import HomeIcon from '../icons/HomeIcon';
 import ContactIcon from '../icons/ContactIcon';
 import { Outlet, NavLink } from "react-router-dom"
 import MyName from './MyName';
+import DarkIcon from '../icons/DarkIcon';
 
 
 const Menu = ({ iconColor }) => {
@@ -24,6 +25,13 @@ const Menu = ({ iconColor }) => {
         iconNext.current.classList.toggle('hidden');
         parentChild.current.classList.toggle('ml-4');
 
+    }
+
+    const darkMode = ()=>{
+        const element = document.getElementsByTagName('html');
+
+       
+        console.log( element[0].classList.toggle('dark'));
     }
     return (
         <div className=' grid grid-cols-[80px_1fr] w-full h-full relative md:inline' ref={parent}>
@@ -71,6 +79,13 @@ const Menu = ({ iconColor }) => {
                                     <span className='md:hidden'> <ContactIcon /></span>
                                     <span className='hidden text-link-md '>Contacts</span>
                                 </NavLink>
+                            </li>
+
+                            <li className="mt-8 md:mt-0 menu-mobile ">
+                                <div onClick={()=>{darkMode()}} className='w-fit fill-black dark:fill-white '>
+                                    <DarkIcon />
+                                </div>
+                              
                             </li>
                         </div>
                     </ul>

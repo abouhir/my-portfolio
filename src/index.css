@@ -16,7 +16,7 @@
 }
 
 .menu-mobile{
-    @apply bg-white dark:bg-black  w-full flex justify-center  items-center   h-14 cursor-pointer delay-300 md:text-purpel dark:md:text-white fill-muted dark:fill-white; 
+    @apply bg-white dark:bg-black  w-full flex justify-center  items-center   h-14 cursor-pointer  md:text-purpel dark:md:text-white fill-muted dark:fill-white; 
    
 }
 .selected-item {
@@ -69,4 +69,8 @@
 }
 .parent-p-formation {
     @apply flex items-center space-x-3 z-10 ;
+}
+
+.icon-competence{
+    @apply w-8 lg:w-10 fill-muted dark:fill-white;
 }

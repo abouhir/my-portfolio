@@ -7,7 +7,7 @@ export const getCompetenceData = ()=>{
   const  competences = [
     {
         title : 'Front-end' , 
-        icon : <FrontEnd cls={"w-8 lg:w-10"} /> ,
+        icon : <FrontEnd  /> ,
         technologies : [
             'html' ,
             'css' , 
@@ -20,7 +20,7 @@ export const getCompetenceData = ()=>{
     } , 
     {
         title : 'Back-End' , 
-        icon : <BackEndIcon cls={"w-8 lg:w-10"} /> ,
+        icon : <BackEndIcon  /> ,
         technologies : [
             'php' ,
             'laravel' ,
@@ -29,7 +29,7 @@ export const getCompetenceData = ()=>{
     } ,
      {
         title : 'S G B D R' , 
-        icon : <SgbdIcon cls={"w-8 lg:w-10"} /> ,
+        icon : <SgbdIcon  /> ,
         technologies : [
             'mysql' ,
             'oracle' ,
@@ -38,7 +38,7 @@ export const getCompetenceData = ()=>{
     } ,
     {
         title : 'U I / U X ' , 
-        icon : <UiUxIcon cls={"w-8 lg:w-10"} /> ,
+        icon : <UiUxIcon  /> ,
         technologies : [
             'figma'
             

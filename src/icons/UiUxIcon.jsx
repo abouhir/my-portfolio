@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function UiUxIcon({cls}) {
   return (
-    <svg className={'fill-muted '+cls}
+    <svg className={'icon-competence'}
       xmlns="http://www.w3.org/2000/svg"
      
       enableBackground="new 0 0 512 512"

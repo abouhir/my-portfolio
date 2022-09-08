@@ -11,12 +11,16 @@ import Annonce from './components/Annonce';
 import { useEffect } from 'react';
 
 function App() {
-
+  
   useEffect(() => {
     
  sessionStorage.setItem('isHidden','0') ;
  
   });
+
+ 
+    
+ 
   return (
 
     <Routes>
