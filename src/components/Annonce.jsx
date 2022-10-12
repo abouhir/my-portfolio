@@ -1,12 +1,13 @@
 import React from "react";
 import CloseIcon from "../icons/CloseIcon";
-import imageAnnonce from "../images/aid.jpg";
+import imageAnnonce from "../images/font-birthday.jpg";
+
 import { Outlet } from "react-router-dom";
 import { useRef } from "react";
 import { useEffect } from "react";
 export default function Annonce() {
   const parentAnnonce = useRef();
-
+  const date = new Date();
   const hiddenImage = () => {
     parentAnnonce.current.classList.add("hidden");
   };
@@ -18,11 +19,18 @@ export default function Annonce() {
         ref={parentAnnonce}
       >
         <div className="mx-10 w-[70%]  h md:w-[400px] md:h-[400px] bg-white rounded-xl relative">
-          <div className="w-full h-full relative ">
-            <img 
-              className="rounded-xl absolute z-10 w-full h-full"
+          <div className="w-full h-full relative flex justify-center items-center ">
+            <h1 className="text-5xl font-bithday font-bold absolute z-10 text-gray-600">
+              {18 - date.getDate() !== 0
+                ? "-" + (18 - date.getDate()) + " My Birthday"
+                : "It's My Birthday"}{" "}
+              {}
+            </h1>
+
+            <img
+              className="rounded-xl absolute w-full h-full z-0"
               src={imageAnnonce}
-              alt="fetrah"
+              alt="font birthday"
             />
           </div>
           <div

@@ -28,7 +28,8 @@ module.exports = {
       fontFamily : {
         poppins : 'Poppins',
         k2d : 'K2D' ,
-        arabic : 'Gulzar'
+        arabic: 'Gulzar', 
+        bithday : "'Dancing Script', cursive"
       } ,
       boxShadow : {
         home : '50px 80px ' ,
