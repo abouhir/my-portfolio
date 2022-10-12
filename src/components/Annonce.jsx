@@ -18,11 +18,11 @@ export default function Annonce() {
         className=" w-full h-full flex justify-center items-center bg-black bg-opacity-50 absolute z-10 "
         ref={parentAnnonce}
       >
-        <div className="mx-10 w-[70%]  h md:w-[400px] md:h-[400px] bg-white rounded-xl relative">
+        <div className="mx-10 w-[70%]  h-[350px] md:w-[400px] md:h-[400px] bg-white rounded-xl relative">
           <div className="w-full h-full relative flex justify-center items-center ">
-            <h1 className="text-5xl font-bithday font-bold absolute z-10 text-gray-600">
+            <h1 className=" md:text-5xl text-3xl font-bithday font-bold absolute z-10 text-gray-600">
               {18 - date.getDate() !== 0
-                ? "-" + (18 - date.getDate()) + " My Birthday"
+                ? "-" + (18 - date.getDate()) + " days  My Birthday"
                 : "It's My Birthday"}{" "}
               {}
             </h1>
