@@ -9,7 +9,7 @@ import ReactIcon from "../icons/ReactIcon";
 import TailwindIcon from "../icons/TailwindIcon";
 import mobileImage from "../images/image-mobile.png";
 import desktopImage from "../images/image-desktop.png";
-import cv from "../cv/CV_Bouhir_Abderrahmane(v2).pdf";
+import cv from "../cv/CV_Bouhir_Abderrahmane.pdf";
 import Item from "./Item";
 import MyName from "./MyName";
 
