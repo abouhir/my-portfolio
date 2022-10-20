@@ -126,7 +126,6 @@ const Home = () => {
               href={cv}
               target="__blank"
               className="w-[80%]  text-white dark:text-black text-center text-md xl:text-lg font-bold bg-silver rounded-lg p-2  shadow-md shadow-silver"
-              download
             >
               Télécharger
             </a>
