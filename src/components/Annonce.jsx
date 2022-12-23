@@ -7,10 +7,20 @@ import { useRef } from "react";
 import { useEffect } from "react";
 export default function Annonce() {
   const parentAnnonce = useRef();
-  const date = new Date();
   const hiddenImage = () => {
-    parentAnnonce.current.classList.add("hidden");
+    if (parentAnnonce.current) parentAnnonce.current.classList.add("hidden");
+    sessionStorage.setItem("showAnnonce", false);
   };
+  useEffect(() => {
+    console.log("Annonce");
+    return () => {
+      if (!sessionStorage.getItem("showAnnonce")) {
+        sessionStorage.setItem("showAnnonce", true);
+      } else {
+        if (!JSON.parse(sessionStorage.getItem("showAnnonce"))) hiddenImage();
+      }
+    };
+  }, []);
 
   return (
     <div className="relative w-full h-full overflow-hidden">
